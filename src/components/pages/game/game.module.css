@@ -1,0 +1,12 @@
+.main {
+    display: flex;
+    width: 375px;
+    background-color: rgb(12, 203, 12);
+    height: 667px;
+    flex-direction: column;
+    position: fixed;
+}
+.link_list {
+    display: flex;
+    flex-direction: column;
+}
