@@ -1,10 +1,16 @@
+import List from '../List';
+import ListItem from '../ListItem';
 
-const ForMentor = () => {
+export const ForMentor = () => {
     return (
-      <div>
-          game
-      </div>
+      <List link_back='/' page_name='Для наставника'>
+      <ListItem link = "/for-mentor/1" link_name = 'Вступ'/>
+      </List>
     );
   };
-  
-  export default ForMentor;
+
+  export const Item1= () => {
+    return (
+      <div>Вступ</div>
+    );
+  };

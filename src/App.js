@@ -1,10 +1,12 @@
 import React from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import './App.css'
 import Home from './components/home/Home'
 import About from './components/pages/about/About';
-import {Game, Sports, Desktop, Sports_Basketbol, Sports_Footbal, Desktop_Waterflip} from './components/pages/game/Game';
-import ForMentor from './components/pages/for-mentor/ForMentor';
+import {Game, Sports, Desktop,
+   Sports1, Sports2, 
+   Desktop1} from './components/pages/game/Game';
+import {ForMentor, Item1} from './components/pages/for-mentor/ForMentor';
 import Read from './components/pages/read/Read';
 import Shop from './components/pages/shop/Shop';
 import Idea from './components/pages/idea/Idea';
@@ -17,6 +19,7 @@ function App() {
     <div className='App'>
      <Routes>
       <Route path='/' element ={<Home/>}/>
+
       <Route path="/about" element={<About/>} />
       <Route path="/game" element={<Game/>} />
       <Route path='/for-mentor' element ={<ForMentor/>}/>
@@ -28,14 +31,19 @@ function App() {
       <Route path="/contacts" element={<Contacts/>} />
 
       <Route path="/game/sports" element={<Sports/>} />
-
-      <Route path="/game/sports/basketbol" element={<Sports_Basketbol/>} />
-      <Route path="/game/sports/footbal" element={<Sports_Footbal/>} />
-
-
       <Route path="/game/desktop" element={<Desktop/>} />
 
-      <Route path="/game/desktop/waterflip" element={<Desktop_Waterflip/>} />
+      <Route path="/game/sports/1" element={<Sports1/>} />
+      <Route path="/game/sports/2" element={<Sports2/>} />
+
+      <Route path="/game/desktop/1" element={<Desktop1/>} />
+
+      <Route path="/for-mentor/1" element={<Item1/>} />
+
+
+      
+
+      
      </Routes>
      </div>
   );
