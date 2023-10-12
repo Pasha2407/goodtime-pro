@@ -1,9 +1,8 @@
-
+import List from "../List";
 const Pictures = () => {
     return (
-      <div>
-          game
-      </div>
+      <List link_back='/' page_name='Картинки'>
+      </List>
     );
   };
   

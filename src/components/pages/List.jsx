@@ -1,5 +1,6 @@
 import {Link} from 'react-router-dom';
 import css from './list.module.css'
+
  const List = ({
   link_back,page_name,children}) => {
     return (

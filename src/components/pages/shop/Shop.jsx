@@ -1,9 +1,8 @@
-
+import List from "../List";
 const Shop = () => {
     return (
-      <div>
-          game
-      </div>
+      <List link_back='/' page_name='Магазин'>
+      </List>
     );
   };
   

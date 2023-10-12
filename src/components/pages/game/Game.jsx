@@ -1,13 +1,15 @@
-
+import css from '../list.module.css'
 import List from '../List';
 import ListItem from '../ListItem';
 import Info from '../Info';
+const color_one = css.link_list + ' ' + css.color_one;
+const color_two = css.link_list + ' ' + css.color_two;
 
 export const Game = () => {
     return (
       <List link_back='/' page_name='Ігри'>
-      <ListItem link = "/game/sports" link_name = 'Спортивні'/>
-      <ListItem link = "/game/desktop" link_name = 'Настільні'/>
+      <ListItem link = "/game/sports" link_name = 'Спортивні' color = {color_one}/>
+      <ListItem link = "/game/desktop" link_name = 'Настільні'color = {color_two}/>
       </List>
     );
   };
@@ -15,8 +17,8 @@ export const Game = () => {
   export const Sports = () => {
     return (
       <List link_back='/game' page_name='Спортивні'>
-      <ListItem link = "/game/sports/1" link_name = 'Футбол'/>
-      <ListItem link = "/game/sports/2" link_name = 'Баскетбол'/>
+      <ListItem link = "/game/sports/1" link_name = 'Баскетбол' color = {color_one}/>
+      <ListItem link = "/game/sports/2" link_name = 'Футбол' color = {color_two}/>
       </List>
     );
   };
@@ -24,14 +26,14 @@ export const Game = () => {
   export const Desktop = () => {
     return (
       <List link_back='/game' page_name='Настільні'>
-      <ListItem link = "/game/desktop/1" link_name = 'Waterflip'/>
+      <ListItem link = "/game/desktop/1" link_name = 'Waterflip' color = {color_one}/>
       </List>
     );
   };
 
   export const Sports1 = () => {
     return (
-      <List link_back='/' page_name='Баскетбол'>
+      <List link_back='/game/sports' page_name='Баскетбол'>
       <Info/>
       </List>
     );
@@ -39,7 +41,7 @@ export const Game = () => {
 
   export const Sports2 = () => {
     return (
-      <List link_back='/' page_name='Футбол'>
+      <List link_back='/game/sports' page_name='Футбол'>
       <Info/>
       </List>
     );
@@ -47,7 +49,7 @@ export const Game = () => {
 
   export const Desktop1 = () => {
     return (
-      <List link_back='/' page_name='Waterflip'>
+      <List link_back='/game/desktop' page_name='Waterflip'>
       <Info/>
       </List>
     );

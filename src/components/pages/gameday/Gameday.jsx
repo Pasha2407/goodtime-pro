@@ -1,9 +1,8 @@
-
+import List from "../List";
 const Gameday = () => {
     return (
-      <div>
-          game
-      </div>
+      <List link_back='/' page_name='Gameday'>
+      </List>
     );
   };
   

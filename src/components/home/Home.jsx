@@ -8,7 +8,7 @@ const Home = () => {
       <nav className={css.links_container}>
         <Link  to="/about">Про</Link>
         <Link to="/game">Ігри</Link>
-        <Link  to="/for-mentor">Для наставника</Link>
+        <Link  to="/for-mentor">Для настав</Link>
         <Link to="/read">Почитай</Link>
         <Link  to="/shop">Магазин</Link>
         <Link to="/idea">Ідеї</Link>
