@@ -1,56 +1,60 @@
-import css from '../list.module.css'
-import List from '../List';
+import css from '../page.module.css'
+import css_link from '../list-item.module.css'
+import Page from '../Page';
 import ListItem from '../ListItem';
 import Info from '../Info';
-const color_one = css.link_list + ' ' + css.color_one;
-const color_two = css.link_list + ' ' + css.color_two;
+const color_one = css.link_list + ' ' + css_link.color_one;
+const color_two = css.link_list + ' ' + css_link.color_two;
+const back1 = require('../../home/images/back1.png')
+const back2 = require('../../home/images/back2.png')
+
 
 export const Game = () => {
     return (
-      <List link_back='/' page_name='Ігри'>
+      <Page link_back='/' page_name='Ігри' header_style='header_one' back_icon={back1}>
       <ListItem link = "/game/sports" link_name = 'Спортивні' color = {color_one}/>
       <ListItem link = "/game/desktop" link_name = 'Настільні'color = {color_two}/>
-      </List>
+      </Page>
     );
   };
 
   export const Sports = () => {
     return (
-      <List link_back='/game' page_name='Спортивні'>
+      <Page link_back='/game' page_name='Спортивні' header_style='header_one' back_icon={back1}>
       <ListItem link = "/game/sports/1" link_name = 'Баскетбол' color = {color_one}/>
       <ListItem link = "/game/sports/2" link_name = 'Футбол' color = {color_two}/>
-      </List>
+      </Page>
     );
   };
 
   export const Desktop = () => {
     return (
-      <List link_back='/game' page_name='Настільні'>
+      <Page link_back='/game' page_name='Настільні' header_style='header_one' back_icon={back1}>
       <ListItem link = "/game/desktop/1" link_name = 'Waterflip' color = {color_one}/>
-      </List>
+      </Page>
     );
   };
 
   export const Sports1 = () => {
     return (
-      <List link_back='/game/sports' page_name='Баскетбол'>
+      <Page link_back='/game/sports' page_name='Баскетбол' header_style='header_two' back_icon={back2}>
       <Info/>
-      </List>
+      </Page>
     );
   };
 
   export const Sports2 = () => {
     return (
-      <List link_back='/game/sports' page_name='Футбол'>
+      <Page link_back='/game/sports' page_name='Футбол' header_style='header_two' back_icon={back2}>
       <Info/>
-      </List>
+      </Page>
     );
   };
 
   export const Desktop1 = () => {
     return (
-      <List link_back='/game/desktop' page_name='Waterflip'>
+      <Page link_back='/game/desktop' page_name='Waterflip' header_style='header_two' back_icon={back2}>
       <Info/>
-      </List>
+      </Page>
     );
   };

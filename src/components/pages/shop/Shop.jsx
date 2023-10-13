@@ -1,8 +1,10 @@
-import List from "../List";
+import Page from "../Page";
+const back1 = require('../../home/images/back1.png')
+
 const Shop = () => {
     return (
-      <List link_back='/' page_name='Магазин'>
-      </List>
+      <Page link_back='/' page_name='Магазин' header_style='header_one' back_icon={back1}>
+      </Page>
     );
   };
   

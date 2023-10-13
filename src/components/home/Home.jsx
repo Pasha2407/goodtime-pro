@@ -4,17 +4,17 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <div className={css.main}>
-      <h1>Good Time</h1>
+      <h1><img src = {require('./images/header.png')} alt='Good Time'></img></h1>
       <nav className={css.links_container}>
-        <Link  to="/about">Про</Link>
-        <Link to="/game">Ігри</Link>
-        <Link  to="/for-mentor">Для настав</Link>
-        <Link to="/read">Почитай</Link>
-        <Link  to="/shop">Магазин</Link>
-        <Link to="/idea">Ідеї</Link>
-        <Link  to="/pictures">Картинки</Link>
-        <Link to="/gameday">Gameday</Link>
-        <Link  to="/contacts">Контакти</Link>
+        <Link  to="/about"><img src = {require('./images/pro.png')} alt='Про'></img>Про</Link>
+        <Link to="/game"><img src = {require('./images/game.png')} alt='Ігри'></img>Ігри</Link>
+        <Link  to="/for-mentor"><img src = {require('./images/nastav.png')} alt='Для настав'></img>Для<span>наставника</span></Link>
+        <Link to="/read"><img src = {require('./images/read.png')} alt='Почитай'></img>Почитай</Link>
+        <Link  to="/shop"><img src = {require('./images/shop.png')} alt='Магазин'></img>Магазин</Link>
+        <Link to="/idea"><img src = {require('./images/idea.png')} alt='Ідеї'></img>Ідеї</Link>
+        <Link  to="/pictures"><img src = {require('./images/photo.png')} alt='Картинки'></img>Картинки</Link>
+        <Link to="/gameday"><img src = {require('./images/gameday.png')} alt='Gameday'></img>Gameday</Link>
+        <Link  to="/contacts"><img src = {require('./images/contact.png')} alt='Контакти'></img>Контакти</Link>
       </nav>
     </div>
   );

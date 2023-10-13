@@ -1,0 +1,21 @@
+
+.color_one {
+    background-color: #1E7B60;
+}
+.color_two {
+    background-color: #88A053;
+}
+.link {
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Roboto", Century Gothic, sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
+
+@media (orientation: landscape) {
+    .link {
+        font-size: 17px;
+    }
+}
