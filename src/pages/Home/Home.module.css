@@ -1,0 +1,41 @@
+.Container {
+    background: linear-gradient(180deg, rgb(26, 127, 97), rgb(39, 31, 55));
+    height: 100%;
+    padding: 50px 30px;
+    box-sizing: border-box;
+}
+
+.Container>header {
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.Container>header>img {
+    width: 70%;
+}
+
+.Container>nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(80px, 80px);
+    grid-column-gap: 30px;
+    grid-row-gap: 70px;
+}
+
+.Container>nav>a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    flex-direction: column;
+    color: white;
+}
+
+.Container>nav>a>img {
+    width: 80px;
+}
+
+.Container>nav>a>span {
+    position: relative;
+}

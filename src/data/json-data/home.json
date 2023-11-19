@@ -1,0 +1,56 @@
+[
+    {
+        "id": "1",
+        "link": "/about",
+        "icon": "pro.png",
+        "text": "Про"
+    },
+    {
+        "id": "2",
+        "link": "/game",
+        "icon": "game.png",
+        "text": "Ігри"
+    },
+    {
+        "id": "3",
+        "link": "/for-mentor",
+        "icon": "nastav.png",
+        "text": "Для наставника"
+    },
+    {
+        "id": "4",
+        "link": "/read",
+        "icon": "read.png",
+        "text": "Почитай"
+    },
+    {
+        "id": "5",
+        "link": "/shop",
+        "icon": "shop.png",
+        "text": "Магазин"
+    },
+    {
+        "id": "6",
+        "link": "/idea",
+        "icon": "idea.png",
+        "text": "Ідеї"
+    },
+    {
+        "id": "7",
+        "link": "/pictures",
+        "icon": "photo.png",
+        "text": "Картинки"
+    },
+    {
+        "id": "8",
+        "link": "/gameday",
+        "icon": "gameday.png",
+        "text": "Gameday"
+    },
+    {
+        "id": "9",
+        "link": "/contacts",
+        "icon": "contacts.png",
+        "text": "Контакти"
+    }
+]
