@@ -1,13 +1,11 @@
-import Page from "components/Page/Page";
-// const back1 = require("../../home/images/back1.png");
+import { Page } from "components/Page/Page";
+import { Header } from "components/Header/Header";
 
 export const Gameday = () => {
   return (
-    <Page
-      link_back="/"
-      page_name="Gameday"
-      header_style="header_one"
-      // back_icon={back1}
-    ></Page>
+    <Page>
+      <Header linkBack="/" pageName="Gameday" />
+      Опис
+    </Page>
   );
 };

@@ -1,13 +1,12 @@
 import { Link } from "react-router-dom";
 import css from "./ListItem.module.css";
-const ListItem = ({ link, link_name, color }) => {
+
+export const ListItem = ({ color, link, name }) => {
   return (
-    <nav className={color}>
+    <nav style={{ backgroundColor: color }}>
       <Link className={css.link} to={link}>
-        {link_name}
+        {name}
       </Link>
     </nav>
   );
 };
-
-export default ListItem;

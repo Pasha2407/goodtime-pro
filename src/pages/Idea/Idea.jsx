@@ -1,6 +1,11 @@
-import Page from "components/Page/Page";
-// const back1 = require('../../home/images/back1.png')
+import { Page } from "components/Page/Page";
+import { Header } from "components/Header/Header";
 
 export const Idea = () => {
-  return <Page link_back="/" page_name="Ідеї" header_style="header_one"></Page>;
+  return (
+    <Page>
+      <Header linkBack="/" pageName="Ідея" />
+      ліст ітеми
+    </Page>
+  );
 };

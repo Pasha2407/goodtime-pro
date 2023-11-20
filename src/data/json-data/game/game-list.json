@@ -1,0 +1,41 @@
+[
+    {
+        "pageName": "Спортивні",
+        "list": [
+            {
+                "id": 1,
+                "color": "green",
+                "link": "/game/1/1",
+                "name": "Бейсбол"
+            },
+            {
+                "id": 2,
+                "color": "blue",
+                "link": "/game/1/2",
+                "name": "Футбол"
+            }
+        ]
+    },
+    {
+        "pageName": "Настільні",
+        "list": [
+            {
+                "id": 1,
+                "color": "green",
+                "link": "/game/2/3",
+                "name": "Шахи"
+            }
+        ]
+    },
+    {
+        "pageName": "Табірні",
+        "list": [
+            {
+                "id": 1,
+                "color": "green",
+                "link": "/game/3/4",
+                "name": "Табірна гра"
+            }
+        ]
+    }
+]

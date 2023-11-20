@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "color": "green",
+        "link": "/game/1",
+        "name": "Спортивні"
+    },
+    {
+        "id": 2,
+        "color": "blue",
+        "link": "/game/2",
+        "name": "Настільні"
+    },
+    {
+        "id": 3,
+        "color": "red",
+        "link": "/game/3",
+        "name": "Табірні"
+    }
+]
