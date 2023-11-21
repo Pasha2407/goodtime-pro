@@ -1,11 +1,11 @@
 .Container {
     background: linear-gradient(180deg, rgb(26, 127, 97), rgb(39, 31, 55));
     height: 100%;
-    padding: 50px 20px;
+    padding: 0 20px;
 }
 
 .Container>header {
-    padding-bottom: 40px;
+    padding: 30px 0;
     display: flex;
     justify-content: center;
 }
