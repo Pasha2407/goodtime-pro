@@ -3,10 +3,8 @@ import css from "./ListItem.module.css";
 
 export const ListItem = ({ color, link, name }) => {
   return (
-    <nav style={{ backgroundColor: color }}>
-      <Link className={css.link} to={link}>
-        {name}
-      </Link>
+    <nav className={css.Item} style={{ backgroundColor: color }}>
+      <Link to={link}>{name}</Link>
     </nav>
   );
 };

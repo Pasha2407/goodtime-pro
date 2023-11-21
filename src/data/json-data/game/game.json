@@ -1,20 +1,50 @@
 [
     {
-        "id": 1,
-        "color": "green",
+        "id": "1",
+        "color": "#1E7B60",
         "link": "/game/1",
         "name": "Спортивні"
     },
     {
-        "id": 2,
-        "color": "blue",
+        "id": "2",
+        "color": "#88A053",
         "link": "/game/2",
         "name": "Настільні"
     },
     {
-        "id": 3,
-        "color": "red",
-        "link": "/game/3",
+        "id": "3",
+        "color": "#2B3D4A",
+        "link": "/game",
+        "name": "Інтелектуальні"
+    },
+    {
+        "id": "4",
+        "color": "#295B57",
+        "link": "/game",
+        "name": "Відгадай"
+    },
+    {
+        "id": "5",
+        "color": "#648140",
+        "link": "/game",
+        "name": "Конкурси"
+    },
+    {
+        "id": "6",
+        "color": "#281E37",
+        "link": "/game",
+        "name": "Челенджі"
+    },
+    {
+        "id": "7",
+        "color": "#1E7B60",
+        "link": "/game",
         "name": "Табірні"
+    },
+    {
+        "id": "8",
+        "color": "#88A053",
+        "link": "/game",
+        "name": "Інші"
     }
 ]

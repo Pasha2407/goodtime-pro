@@ -3,16 +3,16 @@
         "pageName": "Спортивні",
         "list": [
             {
-                "id": 1,
-                "color": "green",
+                "id": "1",
+                "color": "#1E7B60",
                 "link": "/game/1/1",
                 "name": "Бейсбол"
             },
             {
-                "id": 2,
-                "color": "blue",
+                "id": "2",
+                "color": "#88A053",
                 "link": "/game/1/2",
-                "name": "Футбол"
+                "name": "Фрізбі"
             }
         ]
     },
@@ -20,21 +20,10 @@
         "pageName": "Настільні",
         "list": [
             {
-                "id": 1,
-                "color": "green",
+                "id": "1",
+                "color": "#1E7B60",
                 "link": "/game/2/3",
-                "name": "Шахи"
-            }
-        ]
-    },
-    {
-        "pageName": "Табірні",
-        "list": [
-            {
-                "id": 1,
-                "color": "green",
-                "link": "/game/3/4",
-                "name": "Табірна гра"
+                "name": "Water Flip"
             }
         ]
     }

@@ -1,4 +1,11 @@
-.link {
+.Item {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Item>a {
     text-decoration: none;
     font-size: 25px;
     font-family: "Roboto", Century Gothic, sans-serif;
