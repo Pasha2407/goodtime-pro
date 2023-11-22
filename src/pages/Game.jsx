@@ -31,7 +31,7 @@ export const GameList = () => {
           color={item.color}
           link={item.link}
           name={item.name}
-        ></ListItem>
+        />
       ))}
     </Page>
   );
@@ -76,7 +76,8 @@ export const GameDetails = () => {
             />
           </div>
         )}
-        {data.text && data.text.map((item) => <p>&emsp;{item}</p>)}
+        {data.text && data.text.map((item) => <p key={item}>&emsp;{item}</p>)}
+        {Object.keys(data).length < 3 && <i>Сторінка не готова</i>}
       </main>
     </Page>
   );

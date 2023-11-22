@@ -62,45 +62,15 @@
     },
     {
         "linkBack": "/game/1",
-        "name": "Спайкбол",
-        "goal": "",
-        "inventory": "",
-        "playing": "",
-        "rules": "",
-        "image": "",
-        "text": [
-            "",
-            "",
-            ""
-        ]
+        "name": "Спайкбол"
     },
     {
         "linkBack": "/game/1",
-        "name": "Регбі",
-        "goal": "",
-        "inventory": "",
-        "playing": "",
-        "rules": "",
-        "image": "",
-        "text": [
-            "",
-            "",
-            ""
-        ]
+        "name": "Регбі"
     },
     {
         "linkBack": "/game/1",
-        "name": "Корнхол",
-        "goal": "",
-        "inventory": "",
-        "playing": "",
-        "rules": "",
-        "image": "",
-        "text": [
-            "",
-            "",
-            ""
-        ]
+        "name": "Корнхол"
     },
     {
         "linkBack": "/game/1",
@@ -109,15 +79,115 @@
     {
         "linkBack": "/game/2",
         "name": "Water Flip",
-        "goal": "",
-        "inventory": "",
-        "playing": "",
-        "rules": "",
+        "goal": "g",
+        "inventory": "i",
+        "playing": "p",
+        "rules": "r",
         "image": "",
         "text": [
             "",
             "",
             ""
         ]
+    },
+    {
+        "linkBack": "/game/2",
+        "name": "Назви 5"
+    },
+    {
+        "linkBack": "/game/2",
+        "name": "Monkey Mafia"
+    },
+    {
+        "linkBack": "/game/2",
+        "name": "Напиши до 100"
+    },
+    {
+        "linkBack": "/game/3",
+        "name": "Імперія"
+    },
+    {
+        "linkBack": "/game/3",
+        "name": "Розбійник"
+    },
+    {
+        "linkBack": "/game/3",
+        "name": "Контрабандисти"
+    },
+    {
+        "linkBack": "/game/3",
+        "name": "Крокодил"
+    },
+    {
+        "linkBack": "/game/3",
+        "name": "Є контакт"
+    },
+    {
+        "linkBack": "/game/3",
+        "name": "Мафія"
+    },
+    {
+        "linkBack": "/game/3",
+        "name": "4 на дивані"
+    },
+    {
+        "linkBack": "/game/3",
+        "name": "Хранитель тайни"
+    },
+    {
+        "linkBack": "/game/3",
+        "name": "3 літрова банка"
+    },
+    {
+        "linkBack": "/game/3",
+        "name": "Я ніколи не"
+    },
+    {
+        "linkBack": "/game/3",
+        "name": "Хто твій сусід"
+    },
+    {
+        "linkBack": "/game/3",
+        "name": "Асоціації"
+    },
+    {
+        "linkBack": "/game/3",
+        "name": "Хлопалки"
+    },
+    {
+        "linkBack": "/game/3",
+        "name": "Алфавіт навколо нас"
+    },
+    {
+        "linkBack": "/game/3",
+        "name": "Гра в П"
+    },
+    {
+        "linkBack": "/game/3",
+        "name": "Скажи те саме"
+    },
+    {
+        "linkBack": "/game/3",
+        "name": "Відгадай пісню"
+    },
+    {
+        "linkBack": "/game/3",
+        "name": "Характери"
+    },
+    {
+        "linkBack": "/game/3",
+        "name": "МСП"
+    },
+    {
+        "linkBack": "/game/3",
+        "name": "Знайди зв'язок"
+    },
+    {
+        "linkBack": "/game/3",
+        "name": "Цифра"
+    },
+    {
+        "linkBack": "/game/3",
+        "name": "Математик"
     }
 ]
