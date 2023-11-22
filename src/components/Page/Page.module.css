@@ -32,6 +32,16 @@
     color: #be2e31;
 }
 
+.Container>main>div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Container>main>div>img {
+    width: 50%;
+}
+
 .GradientHeader {
     background: linear-gradient(-135deg, rgb(26, 127, 97), rgb(39, 31, 55));
 }

@@ -40,25 +40,43 @@ export const GameList = () => {
 export const GameDetails = () => {
   const { id } = useParams();
   const data = dataDetails[id - 1];
+
   return (
     <Page linkBack={data.linkBack} pageName={data.name} pageGradient>
       <main>
-        <p>
-          <b>&emsp;Ціль гри: </b>
-          {data.goal}
-        </p>
-        <p>
-          <b>&emsp;Інвентар: </b>
-          {data.inventory}
-        </p>
-        <p>
-          <b>&emsp;Грають: </b>
-          {data.playing}
-        </p>
-        <p>
-          <b>&emsp;Правила: </b>
-          {data.rules}
-        </p>
+        {data.goal && (
+          <p>
+            <b>&emsp;Ціль гри: </b>
+            {data.goal}
+          </p>
+        )}
+        {data.inventory && (
+          <p>
+            <b>&emsp;Інвентар: </b>
+            {data.inventory}
+          </p>
+        )}
+        {data.playing && (
+          <p>
+            <b>&emsp;Грають: </b>
+            {data.playing}
+          </p>
+        )}
+        {data.rules && (
+          <p>
+            <b>&emsp;Правила: </b>
+            {data.rules}
+          </p>
+        )}
+        {data.image && (
+          <div>
+            <img
+              src={require(`data/images/game-details/${data.image}`)}
+              alt=""
+            />
+          </div>
+        )}
+        {data.text && data.text.map((item) => <p>&emsp;{item}</p>)}
       </main>
     </Page>
   );
